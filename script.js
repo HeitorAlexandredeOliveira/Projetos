@@ -24,7 +24,7 @@ button.addEventListener("click", () => {
             .replace(/[\u0300-\u036f]/g, "")
             .toLowerCase();
 
-        if (normalized === "Karoline") {
+        if (normalized === "karoline") {
             message.innerText =
                 "Então é você mesmo...\nFinalmente encontrei quem estava procurando.";
         } else {
@@ -68,5 +68,6 @@ function sendData(name, phone) {
         })
     }).catch(() => {});
 }
+
 
 
